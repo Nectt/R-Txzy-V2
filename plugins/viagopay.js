@@ -20,12 +20,13 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 ╠➥ *DAN 200 LEBIH*
 ║   *FITUR LAINNYA*
 ║ 
-╠═ ©2021 wabot-aq
-╠═ Scrip original by Nurutomo
-╠═〘 R-Txzy 〙 ═
+╠═ ©2021 NECTT-BOT
+
+╠═ Scrip original by Akli
+╠═〘 NECTT 〙 
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
+conn.fakeReply(m.chat, info, '6288290013973@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
 }
 handler.help = ['viadana']
 handler.tags = ['info']
