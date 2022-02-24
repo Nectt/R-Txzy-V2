@@ -179,7 +179,7 @@ module.exports = {
       let usedPrefix
       let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]
 
-      let isROwner = [global.conn.user.jid, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+      let isROwner = [global.conn.user.jid, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '6288290013973@s.whatsapp.net').includes(m.sender)
       let isOwner = isROwner || m.fromMe
       let isPrems = isROwner || db.data.users[m.sender].premium
       if (!isPrems && !m.isGroup && global.db.data.settings.groupOnly) return
@@ -294,7 +294,7 @@ module.exports = {
 
           m.isCommand = true
           let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // Pendapatkan XP per Command
-          if (xp > 200) m.reply('Ngecit -_-') // Hehehe
+          if (xp > 100) m.reply('Ngecit -_-') // Hehehe
           else m.exp += xp
           if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
             this.reply(m.chat, `Limit kamu habis, silahkan beli melalui *${usedPrefix}buy*`, m)
@@ -411,9 +411,9 @@ module.exports = {
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
                 mentionedJid: [user],
                 externalAdReply: {
-                  mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
+                  mediaUrl: 'IDK SORRY',
                   title: action === 'add' ? wel : lea,
-                  body: 'R-Txzy',
+                  body: 'Nectt',
                   thumbnail: poi
                 }
               }}) 
